@@ -11,7 +11,7 @@ def creditCard(cardNumber):
 	return ((cardSum % 10) == 0)
 
 if __name__=="__main__":
-	inp = input('Enter card number :')
+	inp = input('Enter card number :\n')
 	valid = creditCard(inp)
 	if (valid):
 		print("This is a valid card")
